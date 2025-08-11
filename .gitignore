@@ -1,0 +1,8 @@
+# Ignore all files by default
+*
+
+# Do not ignore MATLAB .m files
+!*.m
+
+# Do not ignore the .gitignore file itself
+!.gitignore
