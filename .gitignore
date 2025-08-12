@@ -1,8 +1,25 @@
-# Ignore all files by default
+# Ignore everything by default
 *
 
-# Do not ignore MATLAB .m files
+# Allow MATLAB code and docs
 !*.m
+!*.md
+!*.pdf
+!*.jpg
+!*.jpeg
+!*.png
 
-# Do not ignore the .gitignore file itself
+# Keep the .gitignore itself
 !.gitignore
+
+# Still ignore raw inputs and big stuff
+Input files/
+*.tif
+*.txt
+*.mat
+*.asv
+*.autosave
+*.mex*
+*.mlx
+.vscode/
+.idea/
