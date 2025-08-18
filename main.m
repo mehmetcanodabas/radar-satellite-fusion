@@ -4,7 +4,7 @@ clc; clear; close all;
 % Read radar data
 [Ih,Qh,Iv,Qv,R_2] = read_radar_data();
 
-% Derive radar moments and get  beam polygon
+% Derive radar moments and get beam polygon
 [ZHmean, R_km, lat_polygon, lon_polygon, color] = ...
     derive_radar_moments(Ih,Qh,Iv,Qv,R_2);
 
@@ -22,7 +22,7 @@ ylimits = [5819000 5859000];
 [wti_radiance, wti_intensity] = derive_wti(B2_cropped, B8_cropped);
 
 % Fuse radar and Sentinel-2
-fh = radar_sentinel_fusion(lat_sentinel, lon_sentinel, wti_radiance, ...
+fusionResult = radar_sentinel_fusion(lat_sentinel, lon_sentinel, wti_radiance, ...
                            lat_polygon, lon_polygon, color);
 
 disp("✅ Pipeline finished.");
