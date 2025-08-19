@@ -1,7 +1,7 @@
 # Ignore everything by default
 *
 
-# Allow MATLAB code and docs
+# Allow source and docs
 !*.m
 !*.md
 !*.pdf
@@ -12,14 +12,23 @@
 # Keep the .gitignore itself
 !.gitignore
 
-# Still ignore raw inputs and big stuff
+# Ignore raw inputs (the whole folder)
 Input files/
-*.tif
-*.txt
-*.mat
+
+# MATLAB temporary / outputs
 *.asv
 *.autosave
+*.mat
 *.mex*
 *.mlx
+
+# Large / raw geodata
+*.tif
+*.tiff
+*.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
