@@ -9,6 +9,7 @@
 !*.jpeg
 !*.png
 !docs/
+!docs/**
 
 # Keep the .gitignore itself
 !.gitignore
