@@ -18,4 +18,4 @@ Supervisor: Prof Dr. Madhukar Chandra, Cosupervisor: M. Sc. Emre Colak
 
 [Data fusion](docs/results/Data-fusion.jpg): Fuse of data, Wind turbines are marked with red circles.
 
-**Keywords:** Sensor Fusion, Weather Radar, Satellite Remote Sensing, Multi-Sensor Data Fusion, Wind Turbine Detection, Radar Reflectivity, Passive Satellite Measurements,Data Visualization.
+**Keywords:** Sensor Fusion, Weather Radar, Satellite Remote Sensing, Multi-Sensor Data Fusion, Wind Turbine Detection, Radar Reflectivity, Passive Satellite Measurements,Data Visualization, MATLAB.
